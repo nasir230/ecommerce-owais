@@ -1,0 +1,100 @@
+@media screen and (max-width: 576px){
+    .display-3 {
+        font-size: 3.5rem;
+    }
+
+    .linker p {
+        font-size: 10px;
+    }
+
+    .footer-copyright {
+        font-size: 13px;
+    }
+
+    .main-title h1 {
+        font-size: 1.5rem;
+    }
+
+    .bg-promise h1 {
+        font-size: 1.5rem;
+    }
+
+    .bg-arrival h1 {
+        font-size: 1.5rem;
+    }
+
+    .bg-banner {
+        background-position: bottom;
+    }
+}
+
+@media (min-width: 576px){
+.modal-dialog-centered {
+    max-width: 648px;
+    margin: 1.75rem auto;
+}
+}
+
+@media screen and (max-width: 768px){
+    .row .border-right-white {
+        border-right: none;
+    }
+
+    .bg-arrival {
+        background-position-x: center;
+    }
+
+    .text-pen {
+        top: 86px !important;
+        width: 31% !important;
+        left: 32px !important
+    }
+
+    .text-bowl {
+        top: 88px!important;
+        width: 34%!important;
+        left: 28px!important;
+    }
+
+    .text-dog {
+        top: 91px!important;
+        left: 59px!important;
+    }
+}
+
+
+
+@media screen and (max-width:1024px){
+    .text-pen {
+        top: 54px;
+        width: 31%;
+        left: 27px;
+    }
+
+    .text-bowl {
+        top: 50px;
+        width: 34%;
+        left: 24px;
+    }
+
+    .text-dog {
+        top: 68px;
+        left: 43px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .text-pen {
+        top: 65px !important;
+    }
+
+    .text-bowl {
+        top: 71px!important;
+        left: 26px!important;
+    }
+
+    .text-dog {
+        top: 80px!important;
+        left: 50px!important;
+    }
+}
